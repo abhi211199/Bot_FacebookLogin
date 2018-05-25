@@ -17,7 +17,3 @@ login_btn = driver.find_element_by_id('u_0_3')
 login_btn.submit()
 
 
-dt=input('logout')
-if(dt=='Y'):
-    logout = driver.find_element_by_id('u_1p_3')
-    logout.submit()
